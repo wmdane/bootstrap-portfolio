@@ -4,21 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="style.css" />
 
     <style>
       .sticky-footer {
-        position: absolute, bottom;
+        position: absolute;
         bottom: 0;
         background-color: whitesmoke;
         text-align: center;
         padding: 20px;
         width: 100%;
+        background-color: #868e96;
       }
     </style>
     <title>Bootstrap Portfolio</title>
@@ -56,7 +52,7 @@
     </nav>
 
     <!--About Me Text Box-->
-    <div class="container" class=".bg-secondary">
+    <div class="container">
       <div class="card mt-3 bg-light mb-3">
         <div class="card-body">
           <div class="row">
@@ -71,25 +67,28 @@
                   height="auto"
                   width="200"
                   class="img-fluid"
-                  ALIGN="left"
+                  align="left"
                   hspace="20"
                   vspace="20"
                   alt="William Dane"
                 />
-                  <p>
-                    I was born September 26, 1994 in Decatur, Georgia. I moved to Charlotte, NC in
-                    1997 and remained there throughout my K-12 years. I attended the University of
-                    North Carolina at Greensboro from 2012-2016 where I earned a bachelors degree in
-                    International Studies. After graduating, I moved back to Charlotte and worked
-                    various positions at Jimmy Johns while searching for a more stable career.
-                    During this time I also earned a certification to teach English as a foreign
-                    language with plans to use it to teach English abroad.
-                  </p>
                 <p>
-                Currently, I am taking a full-stack web development bootcamp in the hopes that I can
-                get a good grounding in various web development tools and use the skills I learn to
-                transfer into a more lucrative and competetive field.
-              </p>
+                  I was born September 26, 1994 in Decatur, Georgia. I moved to Charlotte, NC in
+                  1997 and remained there throughout my K-12 years. I attended the University of
+                  North Carolina at Greensboro from 2012-2016 where I earned a bachelors degree in
+                  International Studies. After graduating, I moved back to Charlotte and worked
+                  various positions at Jimmy Johns while searching for a more stable career. During
+                  this time I also earned a certification to teach English as a foreign language
+                  with plans to use it to teach English abroad.
+                </p>
+                <p>
+                  Currently, I am taking a full-stack web development bootcamp in the hopes that I
+                  can get a good grounding in various web development tools and use the skills I
+                  learn to transfer into a more lucrative and competetive field. I am proficient in
+                  HTML, CSS (Vanilla, Bootstrap, and Bulma), JavaScript, jQuery, Server-side APIs,
+                  and Ajax.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -97,9 +96,17 @@
     </div>
 
     <footer class="sticky-footer">
-      <h5>Find me on:</h5>
-      <a href="https://www.linkedin.com/in/william-dane-0035071b2/" target="_blank">Linkedin</a>
-      <a href="https://github.com/wmdane" target="_blank">Github</a>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Find me on:</h5>
+          <a href="https://www.linkedin.com/in/william-dane-0035071b2/" target="_blank">Linkedin</a>
+          <a href="https://github.com/wmdane" target="_blank">Github</a>
+        </div>
+        <div class="col-md-6">
+          <h5>Email Me!</h5>
+          <p><a href="mailto:willmdane@gmail.com">willmdane@gmail.com</a></p>
+        </div>
+      </div>
     </footer>
 
     <script
